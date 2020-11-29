@@ -1,0 +1,45 @@
+body{
+	background-color: rgb(153, 156, 161);
+}
+
+#card{
+	background-image: url("background.png");
+	background-repeat: no-repeat;
+	background-size: 400px 200px;
+	margin: 20px;
+}
+
+#nome{
+	font-size: 25px;
+} 
+
+.social{
+	text-decoration: none;
+	color: black;
+}
+
+.social:hover {
+	color: rgb(59, 72, 252);
+}
+
+#info{
+	padding-top: 1px;
+	padding-bottom: 10px;
+	padding-left: 35px;
+	font-family: 'Courier New', Courier, monospace;
+}
+
+#instagram{
+	list-style-image: url("instagram-icon.png");
+	margin-left: -10px;
+}
+#twitter{
+	list-style-image: url("twitter-icon.png");
+	margin: 5px;
+	margin-left: -10px;
+}
+#github{
+	list-style-image: url("github-icon.png");
+	margin: 5px;
+	margin-left: -10px;
+}
